@@ -39,6 +39,7 @@ For the grammar file super_simple.g, possible outputs include:
    * javac comprehensive/RandomPhraseGenerator.java
 2. Run the program from the terminal:
    * java comprehensive/RandomPhraseGenerator <grammar_file_path> <number_of_phrases>
+   
    Example:
       * java comprehensive/RandomPhraseGenerator poetic_sentence.g 5
       * This will generate 5 random phrases based on poetic_sentence.g
