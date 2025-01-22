@@ -15,10 +15,10 @@ For the grammar file super_simple.g, possible outputs include:
 ## Grammar File Rules
 1. Non-terminals are enclosed in angle brackets (e.g., <noun>). They must not contain whitespace.
 2. Each non-terminal has a definition that:
-  * Begins with { on its own line.
-  * Lists the non-terminal being defined on the next line.
-  * Contains one or more productions (sequences of terminals and/or non-terminals) listed one per line.
-  * Ends with } on its own line.
+   * Begins with { on its own line.
+   * Lists the non-terminal being defined on the next line.
+   * Contains one or more productions (sequences of terminals and/or non-terminals) listed one per line.
+   * Ends with } on its own line.
 3. Terminals are written without angle brackets and may appear in productions alongside non-terminals.
 4. Any lines outside the curly braces are ignored (comments or whitespace).
 5. The <start> non-terminal is the entry point for generating phrases.
@@ -36,9 +36,9 @@ For the grammar file super_simple.g, possible outputs include:
 * Ensure efficiency to meet running-time requirements.
 ## How to Run
 1. Compile the program using javac:
-  * javac comprehensive/RandomPhraseGenerator.java
+   * javac comprehensive/RandomPhraseGenerator.java
 2. Run the program from the terminal:
-  * java comprehensive/RandomPhraseGenerator <grammar_file_path> <number_of_phrases>
+   * java comprehensive/RandomPhraseGenerator <grammar_file_path> <number_of_phrases>
    Example:
-  * java comprehensive/RandomPhraseGenerator poetic_sentence.g 5
+      * java comprehensive/RandomPhraseGenerator poetic_sentence.g 5
       * This will generate 5 random phrases based on poetic_sentence.g
